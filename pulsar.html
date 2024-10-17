@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Motos Pulsar</title>
+    <link rel="stylesheet" href="pulsar.css">
+</head>
+<body>
+    <div class="sidebar">
+        <h2>Motos Pulsar</h2>
+        <nav>
+            <ul>
+                <li><a href="bajo.html">INICIO</a></li>
+                
+                
+            </ul>
+        </nav>
+    </div>
+
+    <div class="content">
+        <header>
+            <h1>Bienvenido a Motos Pulsar</h1>
+        </header>
+        
+        <section id="modelos">
+            <h2>Modelos de Pulsar</h2>
+            <div class="modelo">
+                <h3>Pulsar NS200</h3>
+                <p>La Pulsar NS 200 es una motocicleta con un motor monocilíndrico de 199.5 cc, refrigerado por líquido1. Tiene una potencia máxima de 23.2 hp a 9,500 rpm y un torque máximo de 18.3 Nm a 8,000 rpm1. Cuenta con una caja de cambios de 6 velocidades1. El diseño es renovado en color gris y tiene arranque eléctrico DC</p>
+            </div>
+            <div class="modelo">
+                <h3>Pulsar RS200</h3>
+                <p>La Bajaj Pulsar RS 200 es una motocicleta deportiva que destaca por su diseño aerodinámico y su rendimiento. Aquí tienes algunos detalles clave:
+
+                    Motor: Monocilíndrico de 199.5 cc con tecnología DTS-i y triple bujía, refrigerado por líquido y con inyección de combustible. Desarrolla una potencia de 24.5 hp a 9,750 RPM y un torque de 18.3 Nm a 8,000 RPM12.
+                    Transmisión: Caja de 6 velocidades1.
+                    Suspensión: Horquilla telescópica en la parte delantera y monoamortiguador Nitrox en la parte trasera1.
+                    Frenos: Discos con ABS de un solo canal, con un diámetro de 300 mm en el freno delantero y 230 mm en el trasero1.
+                    Dimensiones: Longitud de 1,999 mm, anchura de 765 mm, altura de 810 mm y una distancia entre ejes de 1,355 mm2.
+                    Peso: 165 kg en seco1.
+                    Capacidad del tanque: 13 litros2.
+                    La Pulsar RS 200 es conocida por su buena aerodinámica, lo que la hace ideal tanto para carretera como para circuitos1. Además, cuenta con luces LED y una consola de instrumentos análogo-digital1.
+                    
+                   
+                   
+                    
+                    </p>
+            </div>
+        </section>
+        
+        <section id="galeria">
+            <h2>Galería</h2>
+            <button onclick="mostrarGaleria()">Ver Galería</button>
+            <div id="imagenes" class="hidden">
+                <img src="200.jpg" alt="Pulsar NS200" width="500">
+                <img src="rs.jpg" alt="Pulsar RS200">
+            </div>
+        </section>
+        
+        <section id="contacto">
+            <h2>Contacto</h2>
+            <form id="formulario-contacto">
+                <label for="nombre">Nombre:</label>
+                <input type="text" id="nombre" name="nombre" required>
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+                <label for="mensaje">Mensaje:</label>
+                <textarea id="mensaje" name="mensaje" required></textarea>
+                <button type="submit">Enviar</button>
+            </form>
+        </section>
+    
+        <footer>
+            <p>&copy; 2024 Motos Pulsar. Todos los derechos reservados.</p>
+        </footer>
+    </div>
+
+    <script src="pulsar.js"></script>
+</body>
+</html>

@@ -1,0 +1,36 @@
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-color: #000000;
+}
+.container {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+    padding: 20px;
+}
+.card {
+    background-color: rgb(227, 7, 247);
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgb(255, 255, 255);
+    padding: 20px;
+    text-align: center;
+}
+.card h2 {
+    margin-top: 0;
+    color: #fafafa;
+}
+.card p {
+    font-size: 2em;
+    font-weight: bold;
+    color: #7ab8c0;
+    margin: 10px 0;
+}
+
+
+
+
